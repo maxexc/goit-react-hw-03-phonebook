@@ -10,7 +10,7 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      React homework Phonebook33
+      React homework Phonebook3
     </div>
   );
 };
