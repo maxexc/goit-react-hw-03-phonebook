@@ -22,7 +22,7 @@ class App extends Component {
     if (parsedContacts) {
       this.setState({ contacts: parsedContacts });
     };
-    console.log(localStorage);
+    // console.log(localStorage);
   };
 
   // componentDidUpdate(prevProps, prevState) {
@@ -31,7 +31,7 @@ class App extends Component {
     if (this.state.contacts !== prevState.contacts) {
       localStorage.setItem('contacts', JSON.stringify(this.state.contacts));
     };
-    console.log(localStorage);
+    // console.log(localStorage);
   };
 
   formSubmitHandler = event => {
