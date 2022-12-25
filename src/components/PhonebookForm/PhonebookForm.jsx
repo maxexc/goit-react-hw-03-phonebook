@@ -22,7 +22,8 @@ class Phonebook extends Component {
         // console.log(event.currentTarget.name);
         // this.setState({ [event.currentTarget.name]: event.currentTarget.value });
         const { name, value } = event.currentTarget;
-        this.setState({ [name]: value })
+        this.setState({ [name]: value });
+        this.setState({id: nanoid()});
     }
 
     handleFormSubmit = event => {
